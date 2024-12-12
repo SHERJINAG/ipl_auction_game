@@ -66,8 +66,8 @@ To run this game locally on your computer, follow the steps below:
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/SHERJINAG/ipl_auction_game.git
-
-##File Structure
+---
+## File Structure
 ipl_auction_game/
 ├── auction.html         # Auction game page
 ├── images/              # Folder containing images and icons
@@ -77,15 +77,22 @@ ipl_auction_game/
 
 ├── st.css
 └── README.md            # Project documentation
-
-##Project Setup
+---
+## Project Setup
 To set up and start working on this project locally:
 
 Ensure that you have a web browser installed (e.g., Chrome, Firefox).
 Clone the repository and open the auction.html file directly in your browser.
+---
 
+## Challenges Faced
+During the development of this game, several challenges were encountered:
 
-##Contributing
+AI Bidding Logic: Developing an intelligent AI system that mimics the real IPL auction process was complex. It had to consider player stats, budget management, and team requirements.
+Responsive Design: Ensuring that the game works seamlessly across different devices, especially mobile phones, required careful consideration of CSS media queries.
+Real-time Updates: Managing real-time updates of the auction and handling bids simultaneously from multiple teams (human and AI) was a key challenge.
+---
+## Contributing
 If you would like to contribute to this project, feel free to fork the repository and make a pull request with your changes. Please ensure that you follow the existing code style and provide a detailed description of your changes.
 
 To contribute:
@@ -94,10 +101,13 @@ Fork the repository.
 Create a new branch for your feature or bug fix.
 Commit your changes with a descriptive message.
 Push your changes and create a pull request.
-##License
+---
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
+---
 
-##Acknowledgments
+## Acknowledgments
 IPL: The game is inspired by the real IPL Auction process.
 GitHub: For hosting and providing a platform for collaboration.
 Stack Overflow: For solving development-related queries.
+---

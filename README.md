@@ -61,7 +61,43 @@ This game was designed for entertainment purposes, as well as a demonstration of
 ## How to Run Locally
 To run this game locally on your computer, follow the steps below:
 
+
+
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/SHERJINAG/ipl_auction_game.git
 
+##File Structure
+ipl_auction_game/
+├── auction.html         # Auction game page
+├── images/              # Folder containing images and icons
+│   ├── player_images/   # Player images for auction
+│   ├── team_logos/      # Logos of IPL teams
+├── script.js                 # JavaScript files
+
+├── st.css
+└── README.md            # Project documentation
+
+##Project Setup
+To set up and start working on this project locally:
+
+Ensure that you have a web browser installed (e.g., Chrome, Firefox).
+Clone the repository and open the auction.html file directly in your browser.
+
+
+##Contributing
+If you would like to contribute to this project, feel free to fork the repository and make a pull request with your changes. Please ensure that you follow the existing code style and provide a detailed description of your changes.
+
+To contribute:
+
+Fork the repository.
+Create a new branch for your feature or bug fix.
+Commit your changes with a descriptive message.
+Push your changes and create a pull request.
+##License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+##Acknowledgments
+IPL: The game is inspired by the real IPL Auction process.
+GitHub: For hosting and providing a platform for collaboration.
+Stack Overflow: For solving development-related queries.
